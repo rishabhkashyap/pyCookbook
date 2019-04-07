@@ -39,8 +39,8 @@ if __name__=='__main__':
     queue.enqueue(2)
     queue.enqueue(3)
     queue.enqueue(3)
-    queue.enqueue(3)
-    queue.enqueue(3)
+    # queue.enqueue(3)
+    #queue.enqueue(3)
 
     queue.display_queue()
     print('\n')
