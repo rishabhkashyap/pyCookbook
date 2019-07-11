@@ -45,7 +45,7 @@ class HeapSort:
 
 
 if __name__ == "__main__":
-    arr = [5, 4, 3, 2, 1]
+    arr = [3, 4, 1, 7, 2,6]
     heap_sort = HeapSort(arr)
     heap_sort.sort()
     heap_sort.print_array()
