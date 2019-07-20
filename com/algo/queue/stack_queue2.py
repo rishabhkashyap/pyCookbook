@@ -30,12 +30,13 @@ class Stack:
         element = self.__queue1.pop(0)
         self.__size -= 1
         return element
+
     def display(self):
         print(*self.__queue1)
 
 
-if __name__=="__main__":
-    stack=Stack(5)
+if __name__ == "__main__":
+    stack = Stack(5)
     stack.push(1)
     stack.push(2)
     stack.push(3)
