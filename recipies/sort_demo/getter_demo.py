@@ -32,15 +32,15 @@ if __name__ == '__main__':
     # print(lst)
     # student_list.sort(key=attrgetter("score"))
     # print(student_list)
-    max_score_student:Student=max(student_list,key=attrgetter("score"))
+    max_score_student: Student = max(student_list, key=attrgetter("score"))
     print(f"Max score = {max_score_student}")
-    stu_list_map:List[Dict[str, int]]= [{'name': 'student1', 'score': 45},
-                                        {'name': 'student4', 'score': 89},
-                                        {'name': 'student2', 'score': 24}
-                                        ]
-    stu_sorted=sorted(stu_list_map, key=itemgetter('score'))
+    stu_list_map: List[Dict[str, int]] = [{'name': 'student1', 'score': 45},
+                                          {'name': 'student4', 'score': 89},
+                                          {'name': 'student2', 'score': 24}
+                                          ]
+    stu_sorted = sorted(stu_list_map, key=itemgetter('score'))
     print(stu_sorted)
     list_of_tuples = [(1, 2), (3, 4), (5, 0)]
-    print(sorted(list_of_tuples,key=itemgetter(1)))
-    print(min(list_of_tuples,key=itemgetter(0)))
-    print(f"Second element of typle = {itemgetter(1)(list_of_tuples)}")
+    print(sorted(list_of_tuples, key=itemgetter(1)))
+    print(min(list_of_tuples, key=itemgetter(0)))
+    print(f"Second element of tuple = {itemgetter(1)(list_of_tuples)}")
